@@ -55,7 +55,7 @@ describe( 'IconGenerator', () => {
     assert( expected.length === 7 );
 
     expected = IconGenerator.filter( targets, FaviconConstants.imageSizes );
-    assert( expected.length === 10 );
+    assert( expected.length === 11 );
 
     expected = IconGenerator.filter( targets, FaviconConstants.icoImageSizes );
     assert( expected.length === 5 );

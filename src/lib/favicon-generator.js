@@ -12,7 +12,7 @@ export const FaviconConstants = {
    * Sizes required for the FAVICON PNG files.
    * @type {Array.<Number>}
    */
-  imageSizes:  [ 32, 57, 72, 96, 120, 128, 144, 152, 195, 228 ],
+  imageSizes:  [ 16, 32, 57, 72, 96, 120, 128, 144, 152, 195, 228 ],
 
   /**
    * Sizes required for the FAVICON ICO file.
@@ -32,6 +32,7 @@ export const FaviconConstants = {
    * @see https://github.com/audreyr/favicon-cheat-sheet
    */
   pngFiles: [
+    { name: 'favicon-16.png',  size:  16 }, // electron app tray icon
     { name: 'favicon-32.png',  size:  32 }, // Certain old but not too old Chrome versions mishandle ico
     { name: 'favicon-57.png',  size:  57 }, // Standard iOS home screen ( iPod Touch, iPhone first generation to 3G )
     { name: 'favicon-72.png',  size:  72 }, // iPad home screen icon

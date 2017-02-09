@@ -1,5 +1,5 @@
 {
-  "name": "icon-gen",
+  "name": "@keyvanfatehi/icon-gen",
   "description": "Generate an icon files from the SVG or PNG files",
   "version": "1.0.7",
   "author": "akabeko (http://akabeko.me/)",
